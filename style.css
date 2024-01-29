@@ -1,0 +1,231 @@
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav-full{
+    padding-left: 285px;
+}
+#home-section{
+    padding-top: 8em;
+}
+.img-desc{
+    padding-top: 4px;
+    margin-left: -98px;
+}
+.education-dtls a{
+    text-decoration: none;
+    color: black;
+}
+.study{
+    padding: 28px;
+}
+.box-shadow:hover{
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0,0.1);
+}
+.box-link{
+    cursor: pointer;
+}
+.exp-dlts a{
+    text-decoration: none;
+    color: black;
+}
+.skills-size{
+    font-size: 13px;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+.bar-progress{
+    width: 90%;
+}
+.bar-progress-2{
+    width: 95%;
+}
+.bar-progress-3{
+    width: 70%;
+}
+.progress-bar{
+    border-radius: 15px;
+}
+.desc-skill{
+    font-size: 17px;
+}
+.git-size{
+    margin-left: 545px;
+}
+.resume-center{
+    margin-left: 442px;
+}
+.resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+}
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+}
+.resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+}
+.resume-item h5 {
+    font-size: 16px;
+    background: #f7f8f9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume-item ul {
+    padding-left: 20px;
+}
+.resume-item ul li {
+    padding-bottom: 10px;
+}
+.resume-item:last-child {
+    padding-bottom: 0;
+}
+.resume-item::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background: #fff;
+    border: 2px solid #0563bb;
+    left: -9px;
+    top: 0;
+}
+.info {
+    width: 100%;
+    background: #fff;
+}
+.info i {
+    font-size: 20px;
+    color: #0563bb;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #eef7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #45505b;
+}
+.info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #728394;
+}
+.info .email,
+.info .phone {
+  margin-top: 40px;
+}
+.info .email:hover i,
+.info .address:hover i,
+.info .phone:hover i {
+  background: #0563bb;
+  color: #fff;
+}
+.email-form {
+    width: 100%;
+    background: #fff;
+}
+.email-form .form-group {
+    padding-bottom: 8px;
+}
+.email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+.email-form input,
+.email-form textarea {
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 14px;
+}
+.email-form button{
+    background: #0563bb;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.email-form button:hover {
+    background: #0678e3;
+}
+#footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+#footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+}#footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+#footer .social-links {
+    margin: 0 0 40px 0;
+}
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #0563bb;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+#footer .social-links a:hover {
+    background: #0678e3;
+    color: #fff;
+    text-decoration: none;
+}
+#footer .copyright {
+    margin: 0 0 5px 0;
+} 
+#footer .credits {
+    font-size: 13px;
+} 
+#footer .credits a{
+    text-decoration: none;
+}
