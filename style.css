@@ -3,60 +3,20 @@
     width: 100%;
     z-index: 1;
 }
-.nav-full{
-    padding-left: 285px;
+.name h2{
+    padding: 12px;
 }
-#home-section{
-    padding-top: 8em;
+.nav-full{
+    color: #fff;
+    padding-left: 255px;
+}
+.pic{
+    margin-top: 100px;
 }
 .img-desc{
-    padding-top: 4px;
-    margin-left: -98px;
+    margin-top:95px;
 }
-.education-dtls a{
-    text-decoration: none;
-    color: black;
-}
-.study{
-    padding: 28px;
-}
-.box-shadow:hover{
-    box-shadow: 1px 1px 1px 1px rgb(0,0,0,0.1);
-}
-.box-link{
-    cursor: pointer;
-}
-.exp-dlts a{
-    text-decoration: none;
-    color: black;
-}
-.skills-size{
-    font-size: 13px;
-    margin-bottom: 7px;
-    font-weight: 600;
-}
-.bar-progress{
-    width: 90%;
-}
-.bar-progress-2{
-    width: 95%;
-}
-.bar-progress-3{
-    width: 70%;
-}
-.progress-bar{
-    border-radius: 15px;
-}
-.desc-skill{
-    font-size: 17px;
-}
-.git-size{
-    margin-left: 545px;
-}
-.resume-center{
-    margin-left: 442px;
-}
-.resume-title {
+.resume-title{
     font-size: 26px;
     font-weight: 700;
     margin-top: 20px;
@@ -70,7 +30,7 @@
     position: relative;
 }
 .resume-item h4 {
-    line-height: 18px;
+    line-height: 16px;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -105,6 +65,40 @@
     border: 2px solid #0563bb;
     left: -9px;
     top: 0;
+}
+/*experience*/
+.box-shadow:hover{
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0,0.1);
+}
+.box-link{
+    cursor: pointer;
+}
+.exp-dlts a{
+    text-decoration: none;
+    color: black;
+}
+.skills-size{
+    font-size: 13px;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+.bar-progress{
+    width: 90%;
+}
+.bar-progress-2{
+    width: 95%;
+}
+.bar-progress-3{
+    width: 70%;
+}
+.bar-progress-4{
+    width: 65%;
+}
+.progress-bar{
+    border-radius: 15px;
+}
+.desc-skill{
+    font-size: 16px;
 }
 .info {
     width: 100%;
