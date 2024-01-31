@@ -223,3 +223,20 @@
 #footer .credits a{
     text-decoration: none;
 }
+.page-center{
+    margin-top: 230px;
+    text-align: center;
+}
+.sign-in{
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    background: #0859a5;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.sign-in:hover{
+    background: #0382f8;
+}
