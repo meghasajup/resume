@@ -18,33 +18,46 @@
             <div class="col-md-6 col-9 name">
                 <h2>Megha Saju P</h2>
             </div>
-            <div class="col-lg-6 col-3 my-auto nav-full">
-                  <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="col-lg-6 col-3" style="text-align: justify;">
+                <nav class="navbar navbar-expand-lg bg-dark">
                     <div class="container-fluid">
-                      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                      <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#home-section">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#"></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#resume-section">Resume</a>
+                            <a class="nav-link" href="#"></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#experience-section">Experience</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-white" href="#skill-section">Skill</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-white" href="#contact-section">Contact</a>
+                            <a class="nav-link" href="#"></a>
                           </li>
                         </ul>
+                        <span class="navbar-text">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item me-2">
+                                  <a class="nav-link active text-white me-3" aria-current="page" href="#home-section">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white me-4" href="#resume-section">Resume</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white me-4" href="#experience-section">Experience</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white me-4" href="#skill-section">Skill</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white me-4" href="#contact-section">Contact</a>
+                                </li>
+                              </ul>
+                        </span>
                       </div>
                     </div>
-                  </nav>
+                </nav>
             </div>
         </div>
     </header>
@@ -140,7 +153,7 @@
                             alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Nexus Technology</h5>
-                                <p class="card-text">Intership</p>
+                                <p class="card-text">Intership ,Calicut</p>
                              </div>
                         </div>
                     </a>
@@ -152,7 +165,7 @@
                         alt="" class="card-img-top">
                         <div class="card-body">
                           <h5 class="card-title">Scheinder Electric</h5>
-                          <p class="card-text">Production Field</p>
+                          <p class="card-text">Production Field, Banglore</p>
                        </div>
                     </div>
                     </a>
@@ -164,7 +177,7 @@
                         alt="" class="card-img-top">
                         <div class="card-body mt-2">
                           <h5 class="card-title">Times Microwave System</h5>
-                          <p class="card-text">Space Production</p>
+                          <p class="card-text">Space Production, Banglore</p>
                         </div>
                     </div>
                     </a>
@@ -266,20 +279,24 @@
                     </div>
                 </div>
                 <div class="col-lg-8 mt-5 mt-lg-0">
-                    <form action="" method="post" role="form" class="email-form">
+                    <form action="" method="post" role="form" class="email-form" onsubmit="handleSubmit(event)">
                         <div class="row">
                             <div class="col-lg-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                <span id="nameError"></span>
                             </div>
                             <div class="col-lg-6 form-group mt-3 mt-lg-0">
                                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                <span id="emailError"></span>
                             </div>
                         </div>
                         <div class="form-group mt-3">
                             <input type="text" class="form-control" name="subject" id="subject" placeholder="subject" required>
+                            <span id="subjectError"></span>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                            <span id="messageError"></span>
                         </div>
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
@@ -308,7 +325,7 @@
         </div>
     </footer>
 <!-- footer ends -->
-
+    <script src="bom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

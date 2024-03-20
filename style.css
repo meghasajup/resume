@@ -240,3 +240,31 @@
 .sign-in:hover{
     background: #0382f8;
 }
+
+@media (min-width: 992px){
+    .navbar-expand-lg{
+        justify-content: flex-end;
+    }
+}
+
+.nav-arrange{
+    margin-left: -5px;
+}
+@media (min-width: 992px){
+    .navbar-toggler{
+        justify-content: flex-end;
+    }
+}
+
+#nameError{
+    display: none;
+}
+#emailError{
+    display: block;
+}
+#subjectError{
+    display: block;
+}
+#messageError{
+    display: block;
+}
